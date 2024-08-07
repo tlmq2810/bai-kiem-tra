@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    background-color: #FFF2CC;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#E1D5E7;
+    margin-right: 10px; 
+}
+
+.shop {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact a:hover {
+    color: #666;
+}
+.col-3 {
+    border: 2px solid black;
+    width: 157px;
+    padding: 10px;
+    margin: 25px;
+    height: 250px;
+}
+
+button {
+    border-radius: 10%;
+    margin-top: 10px;
+    background: #B0E3E6;
+}
+.timkiem {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    padding: 10px;
+}
+.price {
+    color: blue;
+    font-style: italic;
+    margin-right: 120px;
+}
+.percentage {
+    color: red;
+}
+.pagination .page-link {
+    color: #000;
+}
+nav{
+    margin-top: 30px;
+}
+.col-md-3{
+    margin-top: 15px;
+}
+.address{
+    text-align: center;
+    margin-right: 1140px;
+}

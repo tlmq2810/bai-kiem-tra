@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="container">
+        <div class="logo">
+            <div class="ava"></div>
+            <span class="shop ">My shop</span>
+        </div>
+        <div class="contact">
+            <a href="#home">Home</a>
+            <a href="#abt">About us</a>
+            <a href="#contact">Contact</a>
+            <a href="#cart" style="border: 1px solid #DAE8FC; background-color: #DAE8FC; padding: 5px; border-radius: 20%;">My Cart(0)</a>
+        </div>
+    </nav>
+    <p>Your information</p>
+    <div class="row">
+        <div class="col-6">
+            <form action="/action_page.php">
+                <label for="fname">Full name</label>
+                <span class="sao">*</span><br>
+                <input type="text" id="fname"><br>
+                <label for="lname">Phone number</label>
+                <span class="sao">*</span><br>
+                <input type="text" id="pnumber"><br>
+                <label for="lname">Address</label>
+                <span class="sao">*</span><br>
+                <input type="text" id="add">
+              </form>
+        </div>
+        <div class="col-6">
+            <span class="pay">Payment method</span>
+            <span class="sao">*</span><br>
+            <form action="/action_page.php">
+                <div class="method">
+                    <input type="radio" id="credit">
+                <label for="paypal">Credit card</label><br>
+                </div>
+                <div class="method">
+                    <input type="radio" id="bank">
+                <label for="cod">Your bank</label><br>
+                </div>
+                <div class="method">
+                    <input type="radio" id="momo">
+                <label for="paypal">Momo</label><br>
+                </div>
+              </form>
+        </div>
+        <p>Cart</p>
+        <div class="cart">
+            <input type="checkbox" class="checkbox">
+            <div class="image-placeholder">IMAGE</div>
+            <div class="details">
+            <span class="p2">Lorem ipsum dolor</span>
+        </div>
+        <div class="remove">
+            <div class="quantity-selector">
+                <input type="number" value="2" min="1">
+                <button class="remove-button">Remove</button>
+            </div>
+            <div class="total">Total: $210</div>
+        </div>
+        </div>
+        <div class="cart">
+            <input type="checkbox" class="checkbox">
+            <div class="image-placeholder">IMAGE</div>
+            <div class="details">
+            <span class="p2">Lorem ipsum dolor</span>
+        </div>
+        <div class="remove">
+            <div class="quantity-selector">
+                <input type="number" value="2" min="1">
+                <button class="remove-button">Remove</button>
+            </div>
+            <div class="total">Total: $210</div>
+        </div>
+        </div>
+        <div class="cart">
+            <input type="checkbox" class="checkbox">
+            <div class="image-placeholder">IMAGE</div>
+            <div class="details">
+            <span class="p2">Lorem ipsum dolor</span>
+        </div>
+        <div class="remove">
+            <div class="quantity-selector">
+                <input type="number" value="2" min="1">
+                <button class="remove-button">Remove</button>
+            </div>
+            <div class="total">Total: $210</div>
+        </div>
+        </div>
+        <div class="cart">
+            <input type="checkbox" class="checkbox">
+            <div class="image-placeholder">IMAGE</div>
+            <div class="details">
+            <span class="p2">Lorem ipsum dolor</span>
+        </div>
+        <div class="remove">
+            <div class="quantity-selector">
+                <input type="number" value="2" min="1">
+                <button class="remove-button">Remove</button>
+            </div>
+            <div class="total">Total: $210</div>
+        </div>
+    </div> 
+    <footer>
+        <div class="container-mt-3">
+            <div class="footer d-flex justify-content-between align-items-center">
+                <div class="address">
+                    <strong>My Shop</strong><br>
+                    <i class="fas fa-map-marker-alt"></i> 22C Somewhere, Ha Noi
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i> 09876543210
+                </div>
+            </div>
+        </div>
+    </footer>          
+</body>
+</html>

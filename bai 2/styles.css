@@ -1,0 +1,171 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    background-color: #FFF2CC;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#E1D5E7;
+    margin-right: 10px; 
+}
+
+.shop {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact a:hover {
+    color: #666;
+}
+.big-card {
+    height: 250px;
+    border: 1px solid black;
+    margin: 25px;
+    text-align: center;
+    padding: 110px;
+    width: 96%;
+}
+
+.card {
+    margin-left: 25px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 0;
+    text-align: center;
+}
+.card-body{
+    height: 85px;
+    padding: 25px;
+}
+h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+button.mau1 {
+    margin-right: 10px;
+    background: #B0E3E6;
+    border: 1px solid #8EC6CB;
+    border-radius: 10%;
+    width: 80px;
+}
+
+button.mau {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-right: 10px;
+    width: 80px;
+}
+h5.h5-1 {
+    margin-top: 20px;
+}
+
+button.co-dien {
+    margin-right: 10px;
+    background: #B0E3E6;
+    border: 1px solid #8EC6CB;
+    border-radius: 10%;
+    width: 80px;
+}
+
+button.hien-dai {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-right: 10px;
+    width: 80px;
+}
+.product-info {
+    margin-top: 10px;
+}
+
+.info-row {
+    margin-bottom: 10px;
+}
+.label {
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+.value.price {
+    color: blue;
+}
+
+.value.discount {
+    color: red;
+}
+.value.in-stocks {
+    color: blue;
+}
+.cart-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn {
+    padding: 5px 15px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.container.mt-5 {
+    background-color: transparent;
+}
+.container.mt-6 {
+    background-color: transparent;
+}
+.review-card {
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+}
+a.page-link {
+    color: black;
+}
+.col-md-3{
+    margin-top: 15px;
+}
+.address{
+    text-align: center;
+    margin-right: 1140px;
+}
+p {
+    font-weight: bold;
+    margin: 10px;
+}
